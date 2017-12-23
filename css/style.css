@@ -1,0 +1,195 @@
+* {
+
+	padding: 0;
+	margin: 0;
+}
+
+body {
+
+	overflow-x: hidden;
+	font-family: 'Open Sans',sans-serif;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+
+li {
+
+	list-style: none;
+	display: inline-block;
+}
+
+a {
+
+	text-decoration: none;
+	transition: all 500ms easy-in-out;
+}
+
+a:hover,
+a:active {
+
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+
+	font-family: 'PT Sans Narrow', Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+p {
+
+	font-size: 15px;
+	line-height: 21px;
+}
+
+.btn {
+
+	transition: all 300ms easy-in-out;
+	font-weight: 500 !important;
+	text-transform: uppercase;;
+}
+
+.btn:hover {
+
+	background-color: #ededed !important;
+	color: #3c3c3c !important;
+	border: 1px solid #fff !important;
+}
+
+/* Navigation */
+
+.navbar {
+
+	background-color: #104E8B !important;
+	text-transform: uppercase;
+	font-family: 'PT Sans Narrow',Arial,sans-serif;
+	font-weight: 700;	
+	
+}
+
+.navbar a {
+
+	color: #ffffff !important;
+}
+
+.navbar a:hover {
+
+	opacity: 1;
+	background-color: #7D9EC0 !important;
+}
+
+/* Header */
+
+.header {
+
+	height: 630px;
+	width: 100%;
+	padding: 30px 0 30px;
+	margin-top: 50px;
+	background-image: url(../images/mov_header.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+.header h1 {
+
+	
+	color: #ffffff;
+	font-size: 60px;
+	font-weight: 700;
+	padding-top: 50px;
+	font-family: 'PT Sans Narrow',Arial,sans-serif;
+}
+
+
+.header p{
+	color: #F6F9ED;
+	font-size: 25px;
+	font-weight: 700;
+	padding: 70px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+@media(max-width: 768px) {
+
+	.header {
+
+		padding: 30px;
+		height: 750px;
+	}
+
+	.header img {
+
+		width: 90 %;
+		height: 300px;
+		margin: 20px;
+	}
+
+
+	.header h1 {
+
+		font-size: 50px;
+	}
+
+	.header p {
+
+		font-size: 15px;
+	}
+}
+
+
+
+/* Footer */
+
+.footer {
+
+	padding: 30px;
+	color: #ffffff;
+	background-color: #104E8B;
+	margin-bottom: 0px;
+	margin-top: 500px;
+}
+
+.footer p{
+
+	font-size: 18px;
+}
+
+.footer a{
+
+	color: #ffffff !important;
+}
+
+.footer a:hover {
+
+	color: #ffffff !important;
+	background-color: #7D9EC0 !important;
+}
+
+#movies{
+
+	margin-top: 10px;
+}
+#movies img, #movie img{
+	widows: 100%;
+}
+
+#movies .col-md-3 .well{
+	height: 390px;
+}
+
+#movies .col-md-3 img{
+	height: 240px;
+}
+
+#movie{
+
+	margin-top: 50px;
+}
